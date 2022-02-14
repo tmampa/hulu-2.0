@@ -1,34 +1,99 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hulu 2.0 🍿🎬
 
-## Getting Started
+> "Hulu 2.0 🍿🎬" is a clone build inspired by the official [Hulu](https://www.hulu.com/) website. This clone retrieves data from the TMDB webpage and displays movies and shows.  
+>
+> - Lazy Loading.
+> - Responsive.
 
-First, run the development server:
+![Hulu](./public/Screenshot.png)
+
+## 🏗️ Built With
+
+- Tailwind CSS
+- JavaScript
+- Next JS
+
+## 🖇️ LiveLink
+
+- [Heroku App](https://hulu-clone-2.herokuapp.com/)
+
+## 🛫 Getting Started
+
+To get a local copy up and running, follow the steps in Setup below.
+
+### Prerequisites
+
+Basic knowledge of HTML, CSS, and JavaScript.
+
+### Setup
+
+If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
+[Download the ZIP from this location](https://github.com/tmampa/hulu-2.0), or run the following [git](https://github.com/tmampa/hulu-2.0.git) command to clone the files to your machine:
 
 ```bash
-npm run dev
-# or
-yarn dev
+git clone https://github.com/tmampa/hulu-2.0.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Once the files are on your machine, open the _Leaderboard_ folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation & Set Up
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 🛠 Installation & Set Up
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. Install Node Modules
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+   ```sh
+   npm install
+   ```
 
-## Learn More
+2. Start the development server
 
-To learn more about Next.js, take a look at the following resources:
+   ```sh
+   npm start
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🚀 Building and Running for Production
 
-## Deploy on Vercel
+1. Generate a full static production build
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```sh
+   npm run build
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🧪 Running Tests with Jest
+
+1. Start the development server
+
+   ```sh
+   npm run test
+   ```
+
+### 💉 Install
+
+The following tools help make easier to work with sample code.
+
+- [git](https://git-scm.com/downloads): A tool for managing source code
+- [Visual Studio Code](https://code.visualstudio.com/): A source code editor
+
+
+## 👨🏾‍💻 Author
+
+👤 **Tshephang Mampa**
+
+- GitHub: [tmampa](https://github.com/tmampa)
+- LinkedIn: [Tshephang Mampa](https://linkedin.com/tshephangmampa)
+- Twitter: [Tshephangm\_](https://twitter.com/tshephangm_)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## ❤️ Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Thank you for Microverse for providing the required materials
+
+## 📝 License
