@@ -1,4 +1,4 @@
-import { Router, useRouter } from "next/router";
+import { useRouter } from "next/router";
 import requests from "../utils/requests";
 
 const Nav = () => {
